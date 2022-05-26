@@ -1,0 +1,26 @@
+.container-department {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #F59E10;
+    height: 100px;
+}
+
+.container-department img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.news-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px;
+}

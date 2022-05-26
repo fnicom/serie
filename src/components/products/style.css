@@ -1,0 +1,32 @@
+.container-products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container-products img {
+    width: 150px;
+    height: 150px;
+}
+
+.container-row-products {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #979F9D;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+}

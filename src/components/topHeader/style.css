@@ -1,0 +1,22 @@
+.div-logo img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.container-topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search-header {
+  padding: 5px;
+}
+
+.search-header {
+    background: url('../../assets/img/search.png') no-repeat;
+    background-position: 130px;
+    background-size: 20px;
+    height: 20px;
+    border-color: #979F9D;
+}

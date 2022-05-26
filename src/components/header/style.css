@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.container-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    background-color: #8158C5;
+    color: #fff;
+}
+
+.container-list ul li {
+    display: flex;
+    align-items: center;
+}

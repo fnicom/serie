@@ -1,0 +1,99 @@
+.first-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #F59E10;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.newsletter-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+
+.newsletter-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-footer {
+    background-color: #8158C5;
+    color: #fff;
+}
+
+.newsLetter-title {
+    font-size: 25px;
+    color: #fff;
+}
+
+.newsLetter-text {
+    font-size: 16px;
+    padding: 20px 0 0 0;
+    color: #fff;
+}
+
+button {
+    background: #F59E10;
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.input-name {
+    background: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 20px;   
+    padding-bottom: 10px;
+}
+
+.input-name::placeholder {
+    color: #fff;
+}
+
+.input-email {
+    background: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.input-email::placeholder {
+    color: #fff;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    padding: 15px 0 50px 0;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons img {
+    padding: 0 5px;
+}
+
+.first-footer-text {
+    color: #fff;
+}
