@@ -25,7 +25,7 @@
   margin: 20px;
 }
 
-@media (min-width: 520px) {
+@media (max-width: 520px) {
   .container-department {
     flex-direction: column;
     height: 100%;
@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container-department {
     flex-direction: row;
     height: 100px;
