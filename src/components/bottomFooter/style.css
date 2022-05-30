@@ -1,8 +1,3 @@
-.bottomFooter-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .container-address {
   display: flex;
   flex-direction: column;
@@ -49,7 +44,7 @@
 }
 
 .container-footer div {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .footer-tech {
@@ -89,4 +84,27 @@ p {
 .payment-text {
   color: #8158c5;
   font-weight: 900;
+}
+
+@media (max-width: 520px) {
+  .container-footer {
+    flex-direction: column;
+    background-color: royalblue;
+  }
+
+  .container-footer div {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) { 
+  .container-footer {
+    flex-direction: column;
+  }
+
+  .container-footer div {
+    margin: 0 auto;
+    text-align: center;
+  }
 }
